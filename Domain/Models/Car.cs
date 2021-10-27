@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Model
 {
-    public class Car:Entity
+    public class Car : Entity
     {
 
-        public string Brand{ get; set; }
+        public string Brand { get; set; }
 
         public string Model { get; set; }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interface
 {
-    public interface ICarRepository 
+    public interface ICarRepository
     {
         IEnumerable<Car> GetAll();
 

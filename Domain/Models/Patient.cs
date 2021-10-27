@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Model
 {
-    public class Patient:Entity
+    public class Patient : Entity
     {
         public string Name { get; set; }
 
