@@ -1,4 +1,5 @@
-﻿using Domain.Model;
+﻿using Data.Mapping;
+using Domain.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

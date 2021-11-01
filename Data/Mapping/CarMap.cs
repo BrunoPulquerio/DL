@@ -1,4 +1,6 @@
 ﻿using Domain.Model;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +37,7 @@ namespace Data.Mapping
                 .HasColumnType("varchar(7)")
                 .IsRequired();
 
-            builder.Property(prop => prop.Renavam)
+            builder.Property(prop => prop.RENAVAM)
                 .HasColumnName("Renavam")
                 .HasColumnType("varchar(11)")
                 .IsRequired();
